@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Form Example</title>
+</head>
+<body>
+
+<h2>Complete HTML Form – All Elements</h2>
+
+<form>
+
+    <!-- Text Input -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+
+    <!-- Number -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="1" max="100">
+    <br><br>
+
+    <!-- Date -->
+    <label for="date">Select Date:</label>
+    <input type="date" id="date" name="date">
+    <br><br>
+
+    <!-- Color -->
+    <label for="favcolor">Favorite Color:</label>
+    <input type="color" id="favcolor" name="favcolor">
+    <br><br>
+
+    <!-- Range -->
+    <label for="volume">Volume (0–100):</label>
+    <input type="range" id="volume" name="volume" min="0" max="100">
+    <br><br>
+
+    <!-- File -->
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file">
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <fieldset>
+        <legend>Gender</legend>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </fieldset>
+    <br>
+
+    <!-- Checkboxes -->
+    <fieldset>
+        <legend>Select Your Skills</legend>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="js" name="skills" value="JS">
+        <label for="js">JavaScript</label>
+    </fieldset>
+    <br>
+
+    <!-- Select Dropdown -->
+    <label for="country">Choose Your Country:</label>
+    <select id="country" name="country">
+        <option value="">--Select--</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="australia">Australia</option>
+    </select>
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea>
+    <br><br>
+
+    <!-- Datalist -->
+    <label for="browser">Choose a browser:</label>
+    <input list="browsers" id="browser" name="browser">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+        <option value="Safari">
+        <option value="Opera">
+    </datalist>
+    <br><br>
+
+    <!-- Progress Bar -->
+    <label>Form Completion Progress:</label><br>
+    <progress value="60" max="100"></progress>
+    <br><br>
+
+    <!-- Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>

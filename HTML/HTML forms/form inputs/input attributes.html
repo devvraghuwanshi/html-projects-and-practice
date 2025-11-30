@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Input Attributes Explained</title>
+</head>
+<body>
+
+<h2>HTML Input Attributes Explained (With Comments)</h2>
+
+<form>
+
+    <!-- autofocus = cursor automatically comes here when page loads -->
+    <input type="text" placeholder="This field has autofocus" autofocus>
+    <br><br>
+
+    <!-- type = decides the kind of input box -->
+    <input type="text" placeholder="Type attribute example">
+    <br><br>
+
+    <!-- placeholder = grey hint text inside box -->
+    <input type="text" placeholder="Enter your name">
+    <br><br>
+
+    <!-- name = identifies the input in form submission -->
+    <input type="text" name="username" placeholder="Name attribute example">
+    <br><br>
+
+    <!-- id = used to link label to input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <br><br>
+
+    <!-- value = sets default value in input -->
+    <input type="text" value="Default text">
+    <br><br>
+
+    <!-- required = field must be filled before submitting -->
+    <input type="text" placeholder="Required field" required>
+    <br><br>
+
+    <!-- readonly = user cannot edit this field -->
+    <input type="text" value="Readonly field" readonly>
+    <br><br>
+
+    <!-- disabled = cannot be clicked or typed in -->
+    <input type="text" value="Disabled field" disabled>
+    <br><br>
+
+    <!-- minlength & maxlength = set character limits -->
+    <input type="text" placeholder="Min 3, Max 10 chars" minlength="3" maxlength="10">
+    <br><br>
+
+    <!-- min & max = limits numbers or dates -->
+    <input type="number" min="1" max="10" placeholder="Min 1, Max 10">
+    <br><br>
+
+    <!-- step = allowed increments -->
+    <input type="number" min="0" max="100" step="5" placeholder="Step 5">
+    <br><br>
+
+    <!-- checked = pre-selected radio/checkbox -->
+    <input type="radio" name="gender" checked> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    <!-- multiple = allows multiple file selection -->
+    <input type="file" multiple>
+    <br><br>
+
+    <!-- pattern = regular expression for validation -->
+    <input type="text" pattern="[A-Za-z]+" placeholder="Only letters allowed">
+    <br><br>
+
+    <!-- autocomplete = turns browser suggestions on/off -->
+    <input type="text" autocomplete="off" placeholder="Autocomplete off">
+    <br><br>
+
+    <!-- list + datalist = shows predefined suggestions -->
+    <input list="browsers" placeholder="Choose a browser">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Safari">
+        <option value="Edge">
+    </datalist>
+    <br><br>
+
+    <!-- progress = shows a progress bar -->
+    <progress value="60" max="100"></progress>
+    <br><br>
+
+    <!-- range = slider input -->
+    <input type="range" min="0" max="100">
+    <br><br>
+
+    <!-- submit button -->
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>

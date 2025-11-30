@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>User Registration Form</h1>
+
+    <form method="post" autocomplete="off" >
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="">Full name</label>
+        <input type="text" name="" id=""placeholder="Enter your name" required /><br /><br />
+
+        <label for="">Email</label>
+        <input type="email" name="" id="" /><br /><br />
+
+        <label for="">Password</label>
+        <input type="password" autofocus name="" id="" /><br /><br />
+
+        <label for="">Phone Number</label>
+        <input type="number" name="" id="" /><br /><br />
+
+        <label for="">Date of Birth</label>
+        <input type="date" name="" id="" min="1990-02-01" max="2000-01-01"/><br /><br />
+
+        <label for="">Gender</label><br /><br />
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label><br /><br />
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label><br /><br />
+        <input type="radio" name="gender" id="others" checked />
+        <label for="others">Others</label>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Address details</legend>
+        <label for="">Street address</label><br /><br />
+        <textarea name="" id="" cols="20" rows="5"></textarea><br /><br />
+        <label for="">City</label>
+        <input type="text" name="" id="" /><br /><br />
+<label for="">State</label>
+        <select name="" id="state">
+          <option value="" disabled selected>select any state</option>
+        
+          <option value="andhra_pradesh">Andhra Pradesh</option>
+          <option value="arunachal_pradesh">Arunachal Pradesh</option>
+          <option value="assam">Assam</option>
+          <option value="bihar">Bihar</option>
+          <option value="chhattisgarh">Chhattisgarh</option>
+          <option value="goa">Goa</option>
+          <option value="gujarat">Gujarat</option>
+          <option value="haryana">Haryana</option>
+          <option value="himachal_pradesh">Himachal Pradesh</option>
+          <option value="jharkhand">Jharkhand</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="kerala">Kerala</option>
+          <option value="madhya_pradesh">Madhya Pradesh</option>
+          <option value="maharashtra">Maharashtra</option>
+          <option value="manipur">Manipur</option>
+          <option value="meghalaya">Meghalaya</option>
+          <option value="mizoram">Mizoram</option>
+          <option value="nagaland">Nagaland</option>
+          <option value="odisha">Odisha</option>
+          <option value="punjab">Punjab</option>
+          <option value="rajasthan">Rajasthan</option>
+          <option value="sikkim">Sikkim</option>
+          <option value="tamil_nadu">Tamil Nadu</option>
+          <option value="telangana">Telangana</option>
+          <option value="tripura">Tripura</option>
+          <option value="uttar_pradesh">Uttar Pradesh</option>
+          <option value="uttarakhand">Uttarakhand</option>
+          <option value="west_bengal">West Bengal</option>
+          <option value="andaman_nicobar">Andaman and Nicobar Islands</option>
+          <option value="chandigarh">Chandigarh</option>
+          <option value="dadra_nagar_haveli">
+            Dadra and Nagar Haveli and Daman and Diu
+          </option>
+          <option value="delhi">Delhi</option>
+          <option value="jammu_kashmir">Jammu and Kashmir</option>
+          <option value="ladakh">Ladakh</option>
+          <option value="lakshadweep">Lakshadweep</option>
+          <option value="puducherry">Puducherry</option>
+        </select>
+        <br /><br />
+        <label for="">Zip code</label>
+        <input type="number" name="" id="" /><br /><br />
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="">Select your interests</label><br /><br />
+        <input type="checkbox" name="" id="coding" checked />
+        <label for="coding">Coding</label><br /><br />
+        <input type="checkbox" name="" id="Design" />
+        <label for="design">Design</label><br /><br />
+        <input type="checkbox" name="" id="Music"  checked/>
+        <label for="music">Music</label><br /><br />
+
+        <label for="">Upload your Resume (PDF only)</label>
+        <input type="file" name="" id="" /><br /><br />
+
+        <label for="">Upload Profile image</label>
+        <input type="file" name="" id="" /><br /><br />
+
+        <label for="">Favorite Color</label>
+        <input type="color" name="" id="" /><br /><br />
+
+        <label for="">Rate our site (1 to 5)</label>
+        <input type="range" name="" id="" /><br /><br />
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>System details</legend>
+        <label for="">User ID</label>
+        <input type="text" name="" id="" /><br /><br />
+        <label for="">Account status</label>
+        <input type="text" name="" id="" /><br /><br />
+      </fieldset>
+
+      <input type="button" value="register" />
+      <input type="button" value="Clear form" />
+    </form>
+  </body>
+</html>
